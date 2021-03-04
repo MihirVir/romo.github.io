@@ -1,0 +1,105 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: sans-serif;
+}
+header{
+	box-shadow: 0px 3px 10px rgba(0,0,0,0.5);
+	position: sticky;
+	top: 0px;
+	background: white;
+}
+nav{
+	min-height: 10vh;
+	margin: auto;
+	width: 90%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+header h1 ,
+nav ul{
+	font-size: 1.5rem;
+	flex: 1;
+}
+nav ul{
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+}
+nav a{
+	color: black;
+	text-decoration: none;
+}
+section {
+	min-height: 100vh;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+section h2{
+	font-size: 5rem;
+	color: white;
+}
+.home{
+	background-image: linear-gradient(to right,#134E5E,#71B280);
+	background-size: cover;
+}
+.edit1{
+	height: 500px;
+	width: 1000px;
+	display: block;
+	background-image: url(./romo1.png);
+	background-size: cover; 
+	position: relative;
+}
+.edit2{
+	background-image: url(./romo2.png);
+	height: 500px;
+	display: block;
+	width: 500px;
+	background-size: cover;
+	position: relative;
+	overflow: auto;
+}
+img{
+	width: 500px;
+	height: 400px;
+	border: 4px solid black;
+}
+.nav-menu li a{
+	transition: color 0.4s, border-bottom 3s;
+}
+.nav-design{
+	background-image: linear-gradient(to right,#F7971E,#FFD200);
+	background-size: cover;
+}
+.text-center{
+	text-align: center;
+}
+.text-decor{
+	font-family: sans-serif;
+	font-size: 1.2rem;
+}
+.nav-menu li a:hover{
+	color: white;
+	transition: 0.6s;
+	border-bottom: 1px solid black;
+}
+.img1{
+	height: 550px;
+	width: 400px;
+}
+.img-head{
+	height: 60px;
+	width: 50px;
+	position: absolute;
+	left: 210px;
+	border: none;
+	padding: 1px;
+	vertical-align: top;
+}
+

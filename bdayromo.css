@@ -1,0 +1,94 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: sans-serif;
+}
+header{
+	box-shadow: 0px 3px 10px rgba(0,0,0,0.5);
+	position: sticky;
+	top: 0px;
+	background: lightgrey;
+}
+nav{
+	min-height: 10vh;
+	margin:auto;
+	width: 90%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+header h1 ,
+nav ul{
+	font-size: 1.5rem;
+	flex: 1;
+}
+nav ul{
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+}
+nav a{
+	color: black;
+	text-decoration: none;
+}
+.nav-menu li a {
+	transition: color 0.4s, border-bottom 3s;
+}
+.text-center{
+	text-align: center;
+}
+.nav-menu li a:hover{
+	color: white;
+	transition: 0.6s;
+	border-bottom: 1px solid black;
+}
+.text-dec{
+	font-family: sans-serif;
+	font-size: 1.1rem;
+}
+#welcome-socials{
+	margin-top: 40vh;
+}
+#welcome{
+	font-size: 2rem;
+	letter-spacing: 0.2rem;
+	color: #e91f15;
+	font-weight: 600;
+	margin-bottom: 1rem;
+	font-family: 'Poppins', sans-serif;
+}
+.home{
+	background-image: linear-gradient(to right,#D66D75,#E29587);
+	background-size: cover;
+}
+section {
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+section h2{
+	font-size: 5rem;
+	color: white;
+}
+.nav-design{
+	background-image: linear-gradient(to right,#F7971E,#FFD200);
+	background-size: cover;
+}
+.img1{
+	height: 550px;
+	width: 400px;
+}
+.img-head{
+	height: 60px;
+	width: 50px;
+	position: absolute;
+	left: 150px;
+	border: none;
+	padding: 1px;
+	vertical-align: top;
+}
+
